@@ -1,0 +1,51 @@
+# ============================================
+# 救援机器人项目 .gitignore
+# ============================================
+
+# ---- 大文件 / 可下载工具 (tools/) ----
+# 这些文件可从官网下载，不需要提交到Git
+tools/*.exe
+tools/*.img.gz
+tools/*.apk
+tools/*.dmg
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# ---- Arduino / PlatformIO ----
+.pio/
+.pioenvs/
+.piolibdeps/
+*.elf
+*.hex
+*.bin
+
+# ---- IDE & Editor ----
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ---- 系统文件 ----
+$RECYCLE.BIN/
+
+# ---- 旧原始资料 (已整理到新目录) ----
+K230开发板资料/
+yolodsE/
+救援机器人项目制作代码等资料/
+
+# ---- 临时文件 ----
+*.tmp
+*.temp
+*.log

@@ -1,0 +1,22 @@
+# YOLO Dataset Configuration
+# 救援机器人球体检测数据集
+
+path: ../dataset          # 数据集根目录
+train: images/train       # 训练集路径 (2226张)
+val: images/val           # 验证集路径 (523张)
+test: images/test         # 测试集路径 (28张)
+
+# 类别定义
+names:
+  0: background
+  1: red_ball
+  2: blue_ball
+  3: green_ball
+  4: yellow_ball
+  5: purple_ball
+  6: orange_ball
+  7: red_block
+  8: blue_block
+
+# 类别数量
+nc: 9
